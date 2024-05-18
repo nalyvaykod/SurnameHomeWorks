@@ -13,13 +13,13 @@ public class BasicScript : MonoBehaviour
     //Not Default
     /* public GameObject Player;
      public Light MyLight;
-     public Vector3 position; */
+      */
 
     //1
     public GameObject CubeObject;
     public Light MyLight;
     public Camera MyCamera;
-
+    public Vector3 SomeVector;
     //2
     //public Transform CubeTransform;
 
@@ -44,3 +44,5 @@ public class BasicScript : MonoBehaviour
 
     }
 }
+
+
