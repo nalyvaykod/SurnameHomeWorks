@@ -1,0 +1,18 @@
+.button {
+    width: 500px;
+    height: 170px;
+    -unity-font: url("project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Bangers.ttf?fileID=12800000&guid=5dd49b3eacc540408c98eee0de38e0f1&type=3#Bangers");
+    -unity-font-style: bold;
+    font-size: 55px;
+    margin-bottom: 30px;
+    -unity-text-align: middle-center;
+    -unity-text-outline-color: rgb(122, 122, 122);
+    -unity-text-outline-width: 3.5px;
+    text-shadow: 3.5px 0 3px rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+
+.unity-progress-bar {
+    min-width: 0;
+    max-width: 200px;
+}
