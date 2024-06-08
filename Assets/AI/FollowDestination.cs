@@ -10,10 +10,11 @@ public class FollowDestination : MonoBehaviour
     void Start()
     {
         NavMeshAgentObject = gameObject.GetComponent<NavMeshAgent>();
+        destination = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void Update()
     {
-        NavMeshAgentObject.SetDestination(destination.transform.position);  
+        NavMeshAgentObject.SetDestination(destination.position);  
     }
 }
